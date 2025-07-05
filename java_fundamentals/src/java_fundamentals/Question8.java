@@ -10,11 +10,8 @@ public class Question8 {
 		int A=sc.nextInt();
 		System.out.println("B");
 		int B=sc.nextInt();
-		if(A%10==B%10) {
-			System.out.println("True");
-		}
-		else
-			System.out.println("False");
+		boolean result=(A%10)==(B%10);
+		System.out.println("last digit " + " ( " + A + " , " + B + " ) " + " is " + result);
 		
 
 	}
