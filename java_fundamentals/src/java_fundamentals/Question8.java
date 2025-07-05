@@ -1,0 +1,22 @@
+package java_fundamentals;
+
+import java.util.Scanner;
+
+public class Question8 {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("A");
+		int A=sc.nextInt();
+		System.out.println("B");
+		int B=sc.nextInt();
+		if(A%10==B%10) {
+			System.out.println("True");
+		}
+		else
+			System.out.println("False");
+		
+
+	}
+
+}
